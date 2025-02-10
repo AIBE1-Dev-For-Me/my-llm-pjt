@@ -7,7 +7,7 @@ async function main() {
     spinner.classList.add("spinner-border");
     document.querySelector("#box").appendChild(spinner);
 
-    const url = "https://ballistic-flicker-chard.glitch.me";
+    const url = "https://fluff-cold-dinghy.glitch.me";
     const formData = new FormData(document.querySelector("#ccForm"));
     const text = formData.get("text");
     // console.log(text);
